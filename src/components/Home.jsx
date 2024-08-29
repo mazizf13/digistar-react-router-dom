@@ -2,13 +2,13 @@ import React from "react";
 import Banner from "./Banner";
 import Footer from "./Footer";
 
-const About = () => {
+const Home = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <div className="flex-grow">
         <Banner
-          title="Tentang Kami"
-          subtitle="Mengenal PaDi UMKM yang hadir sebagai Marketplace B2B tepercaya di Indonesia, yang merupakan solusi bisnis bagi UMKM, BUMN, Perusahaan swasta, dan Pemerintah."
+          title="PaDi UMKM Hadir Sebagai Satu Solusi Bisnis bagi UMKM, BUMN dan Pemerintah."
+          subtitle="Mempertemukan UMKM berkualitas dengan perusahaan BUMN maupun Swasta untuk mendapatkan transaksi dengan harga dan kualitas terbaik."
           buttonText="Selengkapnya"
           imageSrc="/assets/hero.webp"
           onButtonClick={() => console.log("Button clicked!")}
@@ -20,4 +20,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Home;
